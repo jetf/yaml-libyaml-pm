@@ -39,13 +39,13 @@ install:
 script:
 - zild disttest
 
-notifications:
-  irc:
-    channels:
-    - irc.perl.org#yaml
-    on_success: change
-    on_failure: always
-    skip_join: true
+# notifications:
+#  irc:
+#     channels:
+#     - irc.perl.org#yaml
+#     on_success: change
+#     on_failure: always
+#     skip_join: true
 
 # Hack to not run on tag pushes:
 branches:
